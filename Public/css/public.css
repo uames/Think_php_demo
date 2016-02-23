@@ -1,0 +1,444 @@
+.font-arial{
+	font-family: "Arial";
+}
+
+.mt40{
+	margin-top: 40px;
+}
+
+input{
+	border:0;
+}
+
+h1,h2,h3,h4,h5,h6,p,div,span,a,dl,dt,dd,table,input,ul,li,label{
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	min-width: 1280px;
+	background: url(../images/common_bg.jpg) top left;
+	font-family: SimSun, "宋体", helvetica, arial, verdana, tahoma, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+input,select,textarea {
+	outline: none;
+}
+
+textarea {
+	margin: 0;
+	resize: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+
+ul,ol,li {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+a {
+	color: #005aa0;
+	text-decoration: none;
+}
+
+em {
+	font-style: normal;
+}
+
+/* 浮动 */
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clr {
+	clear: both;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.clearfix { 
+	zoom: 1;
+}
+
+.newclear {
+	zoom: 1;
+	display: table;
+}
+
+.hide {
+	display: none;
+}
+/*
+.common-bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/common_bg.jpg) top left;
+}*/
+
+.viewport{
+	width: 1250px;
+	margin:20px auto;
+	background: #fbfaf8;
+}
+
+.top-nav{
+	height: 50px;
+	line-height: 50px;
+}
+
+.top-nav li{
+	float: left;
+	width: 33.33%;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+}
+
+.top-nav li a{
+	color: #333;
+	font-size: 22px;
+	display: block;
+	background: #ededed;
+	font-family: "Arial";
+}
+
+.top-nav li.current a{
+	background: #6cc5c9;
+	color: #fff;
+}
+.top-nav li:hover{
+	color: #fff;
+	background: #6cc5c9;
+}
+
+.top-nav li:hover a{
+	color: #fff;
+	background: #6cc5c9;
+}
+
+.top-nav li b{
+	width: 0;
+    height: 20px;
+    position: absolute;
+    top: 16px;
+    right: 0;
+    border-left: 1px solid #c8c8c8;
+}
+
+.show-lists{
+	height: 576px;
+	position: relative;
+}
+
+.show-lists .show-first li{
+	width: 250px;
+	height: 192px;
+	float: left;
+}
+
+.show-lists .show-first li img{
+	width: 250px;
+	height: 192px;
+}
+
+.bottom-footer{
+	padding:20px;
+	color: #333;
+	font-size: 15px;
+}
+
+
+.dis-inline-block{
+	display: inline-block;
+}
+
+
+.bottom-footer .phone-num{
+	color: #333;
+	font-size: 20px;
+}
+
+.bottom-footer .phone-num span{
+	font-family: "Arial";
+}
+
+.bottom-footer .add-cont{
+	margin:13px 15px;
+}
+
+.bottom-footer .add-cont a{
+	display: block;
+	font-size: 15px;
+	color: #333;
+}
+
+/*首页结束*/
+
+.top-link{
+	width: 1250px;
+	height:60px;
+	line-height: 60px;
+	background: #fff;
+	margin:0 auto;
+}
+
+.top-link a{
+	color: #333;
+	margin:0 20px 0 0;
+	font-size: 18px;
+	font-family: "Microsoft yahei";
+}
+
+.top-link a.current, .top-link a:hover{
+	color: #6cc5c9;
+}
+
+.top-link a.author{
+	margin:0 140px 0 30px;
+}
+/*个人简介*/
+
+.personal-wrap, .movies-wrap{
+	width: 688px;
+	text-align: center;
+	margin:60px auto 40px;
+	font-family: "Microsoft yahei";
+}
+
+.com-header .english-name{
+	color: #790000;
+	font-size: 18px;
+}
+
+
+.com-header .chinese-name{
+	color: #282828;
+	font-weight: bold;
+	font-size: 42px;
+}
+
+.com-header .line{
+	width: 170px;
+	height: 2px;
+	display: block;
+	margin:20px auto 10px;
+	background: #ae6665;
+}
+
+.per-cont {
+	color: #282828;
+	font-family: "Microsoft yahei";
+}
+
+.per-cont .chinese-detail{
+	font-size: 18px;
+	line-height:26px;
+}
+
+.per-cont .english-detail{
+	font-size: 10px;
+}
+
+/*平面设计*/
+.graphic-wrap, .ecommerce{
+	text-align: center;
+	margin:60px auto 40px;
+	font-family: "Microsoft yahei";
+}
+
+.graphic-cont{
+	width: 1140px;
+	margin:40px auto 80px;
+}
+
+.graphic-cont li{
+	float: left;
+	width: 180px;
+	margin:0 10px 0 0;
+}
+
+.graphic-cont li img{
+	width: 180px;
+	height: 95px;
+}
+
+.graphic-cont li span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin:5px 0 0;
+}
+
+/*广告摄影*/
+
+.ad-show-lists{
+	width: 1020px;
+	margin:70px auto 30px;
+	position: relative;
+}
+
+.ad-show-lists li{
+	float: left;
+	width: 200px;
+	height: 154px;
+	margin:0 5px 5px 0;
+}
+
+.ad-show-lists li.last{
+	margin:0 0 5px 0;
+}
+.ad-show-lists li img{
+	width: 200px;
+	height: 154px;
+}
+
+.ad-show-lists .more-advertise{
+	width: 500px;
+	height:300px;
+	background: #ffd961;
+	filter:alpha(opacity=93);      
+ 	-moz-opacity:0.93;              
+ 	-khtml-opacity:0.93; 
+	opacity: 0.93;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	display: block;
+	margin-left: -250px;
+}
+.ad-show-lists .more-advertise span{
+	font-size: 36px;
+	display: block;
+	text-align: center;
+	color: #282828;
+	margin:100px 0 10px;
+	font-family: "Microsoft yahei";
+}
+
+.ad-show-lists .more-advertise p{
+	width: 393px;
+	margin:0 auto;
+	font-family: "Arial";
+	font-size: 14px;
+	text-align: right;
+	color: #282828;
+	font-weight: bold;
+}
+
+.desc{
+	color: #282828;
+	font-size: 15px;
+	font-family: "Microsoft yahei";
+	line-height: 22px;
+	margin:10px 0;
+}
+
+/*报价*/
+
+.quote-main{
+	width: 532px;
+	margin:0 auto;
+}
+
+.content{
+	width: 546px;
+}
+.quote-item{
+	font-size: 18px;
+	line-height: 26px;
+	text-align: left;
+	margin:0 0 10px 0;
+}
+
+.team-desc{
+	text-align: center;
+	color: #282828;
+	font-size: 14px;
+	font-family:"Microsoft yahei";
+	margin-top: 50px;
+	line-height: 20px;
+}
+
+.detail-show{
+	width: 960px;
+	height: 553px;
+	position: absolute;
+	background: #f0f0f0;
+	top: 10px;
+	left: 50%;
+	margin-left: -480px;
+	overflow: hidden;
+	display: none;
+}
+
+.prev{
+	width: 24px;
+	height: 90px;
+	display: block;
+	position: absolute;
+	top: 250px;
+	left: 172px;
+	display: none;
+	background: url(../images/prev.png) no-repeat;
+}
+
+.next{
+	width: 24px;
+	height: 90px;
+	display: block;
+	position: absolute;
+	top: 250px;
+	right: 172px;
+	display: none;
+	background: url(../images/next.png) no-repeat;
+}
+
+.detail-show ul{
+	height: 553px;
+	overflow: hidden;
+}
+
+
+.detail-show ul li{
+	float: left;
+}
+
+.detail-show ul li img{
+	width: 100%;
+	height: 553px;
+}
+
+#close-btn{
+	color: #b1b1b3;
+	font-family: "Arial";
+	font-size: 40px;
+	position: absolute;
+	top: 30px;
+	right:172px;
+	display: none;
+}

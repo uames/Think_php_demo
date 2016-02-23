@@ -1,0 +1,73 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>影视广告</title>
+	<link rel="stylesheet" href="/Public/css/public.css" type="text/css">
+</head>
+<body>
+	<div class="viewport">
+		<div class="top-link">
+			<a href="/Main/Index/personal" title="" class="author">摄影师黄小江</a>
+			<a href="/Main/Index/index" title="">首页</a>
+			<a href="/Main/Index/advertisement" title="" class="current">平面广告摄影</a>
+			<a href="/Main/Index/movies" title="">影视广告</a>
+			<a href="/Main/Index/ecommerce" title="">电商摄影</a>
+			<a href="/Main/Index/graphic" title="">平面设计</a>
+		</div>
+		<div class="top-nav">
+			<ul class="clearfix">
+				<li><a href="/Main/Index/personal">Photographer Jango</a><b></b></li>
+				<li class="current"><a href="/Main/Index/advertisement">Advertisement</a><b></b></li>
+				<li><a href="/Main/Index/movies">Movies</a></li>
+			</ul>
+		</div>
+		<div class="ad-show-lists">
+			<ul class="clearfix">
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis01.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis02.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis03.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis04.jpg" alt=""></a></li>
+				<li class="last"><a href="javascript:;" title=""><img src="/Public/images/advertis05.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis06.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis07.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis08.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis09.jpg" alt=""></a></li>
+				<li class="last"><a href="javascript:;" title=""><img src="/Public/images/advertis10.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis11.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis12.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis13.jpg" alt=""></a></li>
+				<li><a href="javascript:;" title=""><img src="/Public/images/advertis14.jpg" alt=""></a></li>
+				<li class="last"><a href="javascript:;" title=""><img src="/Public/images/advertis15.jpg" alt=""></a></li>
+			</ul>
+			<div class="desc">
+				幽灵鲨户外 台湾爱伽玛 广州晶美人 广州曼布斯 战地户外 I FELL头彩 东莞集酷 麦萌电商 国仕服装 时尚先生 云家政 泉百合 衣联网 潮汕网 揭阳网 <br/>《花山》《现代小说》《文艺时空》《世界美食》 日本《ECOLELUXE》 日本《FASHION NEWS》日本《INCELEB》
+			</div>
+			<a href="http://www.zcool.com.cn/u/14153329" title="" class="more-advertise" target="_blank">
+				<span>大量作品展示请点击跳转</span>
+				<p>Work display, click here</p>
+			</a>
+		</div>
+		<div class="bottom-footer">
+			<div class="address-detail dis-inline-block clearfix">
+				<div class="fl">
+					<img src="/Public/images/contact.png" alt="">
+				</div>
+				<div class="fl add-cont">
+					<p class="phone-num">电话:<span>13570438798</span></p>
+					<p class="add">广州市白云区嘉禾黄边华联创意园302</p>
+				</div>
+			</div>
+			<div class="quote dis-inline-block clearfix">
+				<div class="fl">
+					<img src="/Public/images/price.png" alt="">
+				</div>
+				<div class="fl add-cont">
+					<p class="phone-num">摄影业务报价</p>
+					<p class="add"><a href="/Main/Index/quote" title="">点击查看业务报价表或者电话联系</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

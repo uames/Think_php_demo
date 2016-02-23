@@ -1,0 +1,71 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>平面设计</title>
+	<link rel="stylesheet" href="/Public/css/public.css" type="text/css">
+</head>
+<body>
+	<div class="viewport">
+		<div class="top-link">
+			<a href="/Main/Index/persona" title="" class="author">摄影师黄小江</a>
+			<a href="/Main/Index/index" title="">首页</a>
+			<a href="/Main/Index/advertisement" title="">平面广告摄影</a>
+			<a href="/Main/Index/movies" title="">影视广告</a>
+			<a href="/Main/Index/ecommerce" title="">电商摄影</a>
+			<a href="/Main/Index/graphic" title="" class="current">平面设计</a>
+		</div>
+		<div class="top-nav">
+			<ul class="clearfix">
+				<li class="current"><a href="/Main/Index/personal">Photographer Jango</a><b></b></li>
+				<li><a href="/Main/Index/advertisement">Advertisement</a><b></b></li>
+				<li><a href="/Main/Index/movies">Movies</a></li>
+			</ul>
+		</div>
+		<div class="graphic-wrap">
+			<div class="com-header">
+				<p class="english-name">PHOTOGRAPHER JANGO</p>
+				<P class="chinese-name">平面设计服务</P>
+				<span class="line"></span>
+			</div>
+			<div class="per-cont">
+				<div class="per-detail">
+					<p class="chinese-detail">画册设计、企业VI设计、包装设计、印刷品设计<br/></p>
+					<p class="english-detail">ALBUM DESIGN,ENTERPRISE VI DESIGN,PACKAGING DESIGN, PRINT DESIGN,GRAPHIC DESIGN SERVICE
+					</p>
+				</div>
+			</div>
+			<div class="graphic-cont">
+				<ul class="clearfix">
+					<li><img src="/Public/images/graphic01.png" alt=""><span>画册设计</span></li>
+					<li><img src="/Public/images/graphic02.png" alt=""><span>企业VI设计</span></li>
+					<li><img src="/Public/images/graphic03.png" alt=""><span>包装设计</span></li>
+					<li><img src="/Public/images/graphic04.png" alt=""><span>DM单设计</span></li>
+					<li><img src="/Public/images/graphic05.png" alt=""><span>页面设计</span></li>
+					<li><img src="/Public/images/graphic06.jpg" alt=""><span>印刷品设计</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="address-detail dis-inline-block clearfix">
+				<div class="fl">
+					<img src="/Public/images/contact.png" alt="">
+				</div>
+				<div class="fl add-cont">
+					<p class="phone-num">电话:<span>13570438798</span></p>
+					<p class="add">广州市白云区嘉禾黄边华联创意园302</p>
+				</div>
+			</div>
+			<div class="quote dis-inline-block clearfix">
+				<div class="fl">
+					<img src="/Public/images/price.png" alt="">
+				</div>
+				<div class="fl add-cont">
+					<p class="phone-num">摄影业务报价</p>
+					<p class="add"><a href="/Main/Index/quote" title="">点击查看业务报价表或者电话联系</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
